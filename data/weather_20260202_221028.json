@@ -1,0 +1,23 @@
+{
+    "city": "Paris",
+    "country": "FR",
+    "timestamp": "2026-02-02T22:10:28.792658",
+    "date": "2026-02-02",
+    "time": "22:10:28",
+    "temperature": 8.19,
+    "feels_like": 5.48,
+    "temp_min": 7.25,
+    "temp_max": 9.18,
+    "humidity": 93,
+    "pressure": 992,
+    "weather": "clear sky",
+    "weather_main": "Clear",
+    "wind_speed": 4.63,
+    "wind_deg": 100,
+    "clouds": 0,
+    "sunrise": "2026-02-02T08:19:42",
+    "sunset": "2026-02-02T17:48:48",
+    "visibility": 10000,
+    "coord_lat": 48.8534,
+    "coord_lon": 2.3488
+}

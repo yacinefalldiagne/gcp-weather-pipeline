@@ -1,0 +1,128 @@
+[
+  {
+    "name": "city",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": "City name"
+  },
+  {
+    "name": "country",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": "Country code"
+  },
+  {
+    "name": "timestamp",
+    "type": "TIMESTAMP",
+    "mode": "REQUIRED",
+    "description": "Data collection timestamp (UTC)"
+  },
+  {
+    "name": "date",
+    "type": "DATE",
+    "mode": "REQUIRED",
+    "description": "Date of data collection"
+  },
+  {
+    "name": "time",
+    "type": "TIME",
+    "mode": "REQUIRED",
+    "description": "Time of data collection"
+  },
+  {
+    "name": "temperature",
+    "type": "FLOAT",
+    "mode": "REQUIRED",
+    "description": "Temperature in Celsius"
+  },
+  {
+    "name": "feels_like",
+    "type": "FLOAT",
+    "mode": "NULLABLE",
+    "description": "Perceived temperature in Celsius"
+  },
+  {
+    "name": "temp_min",
+    "type": "FLOAT",
+    "mode": "NULLABLE",
+    "description": "Minimum temperature in Celsius"
+  },
+  {
+    "name": "temp_max",
+    "type": "FLOAT",
+    "mode": "NULLABLE",
+    "description": "Maximum temperature in Celsius"
+  },
+  {
+    "name": "humidity",
+    "type": "INTEGER",
+    "mode": "REQUIRED",
+    "description": "Humidity percentage"
+  },
+  {
+    "name": "pressure",
+    "type": "INTEGER",
+    "mode": "REQUIRED",
+    "description": "Atmospheric pressure in hPa"
+  },
+  {
+    "name": "weather",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": "Weather description"
+  },
+  {
+    "name": "weather_main",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": "Main weather category"
+  },
+  {
+    "name": "wind_speed",
+    "type": "FLOAT",
+    "mode": "NULLABLE",
+    "description": "Wind speed in m/s"
+  },
+  {
+    "name": "wind_deg",
+    "type": "INTEGER",
+    "mode": "NULLABLE",
+    "description": "Wind direction in degrees"
+  },
+  {
+    "name": "clouds",
+    "type": "INTEGER",
+    "mode": "NULLABLE",
+    "description": "Cloudiness percentage"
+  },
+  {
+    "name": "sunrise",
+    "type": "TIMESTAMP",
+    "mode": "NULLABLE",
+    "description": "Sunrise time"
+  },
+  {
+    "name": "sunset",
+    "type": "TIMESTAMP",
+    "mode": "NULLABLE",
+    "description": "Sunset time"
+  },
+  {
+    "name": "visibility",
+    "type": "INTEGER",
+    "mode": "NULLABLE",
+    "description": "Visibility in meters"
+  },
+  {
+    "name": "coord_lat",
+    "type": "FLOAT",
+    "mode": "NULLABLE",
+    "description": "Latitude"
+  },
+  {
+    "name": "coord_lon",
+    "type": "FLOAT",
+    "mode": "NULLABLE",
+    "description": "Longitude"
+  }
+]
